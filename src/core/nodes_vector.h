@@ -1,7 +1,7 @@
 #ifndef NODES_VECTOR_H
 #define NODES_VECTOR_H
 
-#include "global.h"
+#include "../global.h"
 
 #include <vector>
 #include <functional>

@@ -1,7 +1,7 @@
 #ifndef DOC_NODE_BASE_H
 #define DOC_NODE_BASE_H
 
-#include "global.h"
+#include "../global.h"
 #include <vector>
 #include <map>
 
