@@ -22,5 +22,6 @@ find_package (Threads)
 target_include_directories (tooska PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}")
 target_link_libraries (tooska ${CMAKE_THREAD_LIBS_INIT})
 
+include(GNUInstallDirs)
 install(FILES ${PROJECT_SOURCE_DIR}/src/global.h DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/tooska/)
 

@@ -16,4 +16,5 @@ set(HEADERS
    PARENT_SCOPE
 )
 
+include(GNUInstallDirs)
 install(DIRECTORY ./ DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/tooska/serialization FILES_MATCHING PATTERN "*.h")
